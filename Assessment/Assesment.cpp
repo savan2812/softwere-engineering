@@ -10,8 +10,6 @@ void add()
     result = num1 + num2;
     printf("\nResult: %d\n ",result);
 }
-
-
 void subtract() 
 {
     int num1, num2, result;
@@ -22,8 +20,6 @@ void subtract()
     result = num1 - num2;
     printf("\nResult: %d\n ",result);
 }
-
-
 void multiply() 
 {
     int num1, num2, result;
@@ -34,7 +30,6 @@ void multiply()
 	result = num1 * num2;
     printf("\nResult: %d\n ",result);
 }
-
 
 void divide() 
 {
@@ -48,13 +43,12 @@ void divide()
 	{
         result = num1 / num2;
         printf("\nResult: %d\n ",result);
-    }
+        }
 	else 
 	{
         printf("\nError: Division by zero is not allowed.");
-    }
+      }
 }
-
 int main() 
 {
     int choice;
